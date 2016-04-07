@@ -1,0 +1,36 @@
+{
+    "name": "lemonphp/container",
+    "type": "library",
+    "description": "A simple dependency injection container, extend from Pimple 3 and implement Interop Container",
+    "keyworks": ["dependency injection", "container"],
+    "license": "MIT",
+    "homepage": "https://github.com/lemonphp/container.git",
+    "support": {
+        "issues": "https://github.com/lemonphp/container/issues",
+        "source": "https://github.com/lemonphp/container"
+    },
+    "authors": [
+        {
+            "name": "Oanh Nguyen",
+            "email": "oanhnn.bk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lemon\\Container\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "pimple/pimple": "^3.0",
+        "container-interop/container-interop": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "squizlabs/php_codesniffer": "^2.5"
+    },
+    "config": {
+        "bin-dir": "bin",
+        "preferred-install": "dist"
+    }
+}
